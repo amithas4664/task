@@ -1,0 +1,27 @@
+/******* Customized Bootstrap ********/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+$primary: #2783F3;
+
+$text-color : #03062F;
+
+$font-family: 'Inter', sans-serif;
+
+$body-color:#F1F5F9;
+
+//adjust the container sizes here
+$container-max-widths: (sm: 540px,
+    md: 720px,
+    lg: 1020px,
+    xl: 1400px,
+    xxl: 1600px);
+
+@import "bootstrap/scss/bootstrap";
+
+@import "mixins/mixins";
+
+@import "customStyle/landing";
+
+
+
